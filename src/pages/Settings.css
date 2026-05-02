@@ -1,0 +1,77 @@
+/* ===== CARDS ===== */
+.card-theme-language-password-settings,
+.card-supervisor {
+    display: flex;
+    flex-direction: row;
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    margin-bottom: 24px;
+
+
+
+}
+
+.settings-section,
+.settings-section-supervisor {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    border-radius: var(--radius);
+}
+
+.settings-section-theme {
+    background: var(--bg);
+
+}
+
+.settings-section-language,
+.settings-section-supervisor {
+    background: var(--bg);
+
+}
+
+.settings-section-password,
+.settings-section-supervisor {
+    border-right: 1px solid var(--border);
+    background: var(--bg);
+
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.settings-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 14px;
+    padding: 15px;
+    border-bottom: 1px solid var(--border);
+
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px
+}
+
+.card-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.card-supervisor {
+    border-radius: var(--radius);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
+    margin-bottom: 24px;
+    background: var(--bg);
+    /* padding: 20px; */
+}
