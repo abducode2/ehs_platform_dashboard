@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "predeploy":"npm run build",
+     "preinstall": "npm cache clean --force",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
